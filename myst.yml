@@ -1,0 +1,55 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: b27930b3-cf59-4b5f-82d9-967081ad5649
+
+  title: O Grande Vernissage
+  subject: Início
+  description: Descobrindo o Teorema da Galeria de Arte
+  license: Creative Commons
+
+  keywords:
+    - teorema da galeria de arte
+    - poliminós
+    - jogo concreto
+    
+  github: https://github.com/OnMat/O-Grande-Vernissage
+  
+  toc:
+    - file: index.md
+    - file: orientacoes.md
+    - file: numeros-e-funcoes/index.md # página inicial de números e funções
+      children:
+        - file: numeros-e-funcoes/domino-dos-racionais.md
+        - file: numeros-e-funcoes/jogo-da-memoria-dos-racionais.md
+        - file: numeros-e-funcoes/trilha-dos-juros-simples.md
+        - file: numeros-e-funcoes/batalha-dos-investidores.md
+        - file: numeros-e-funcoes/escape-room-dos-polinomios.md
+        - file: numeros-e-funcoes/trinca-dos-polinomios.md
+        - file: numeros-e-funcoes/missao-probabilidade.md
+        - file: numeros-e-funcoes/teatro-das-retas.md
+        - file: numeros-e-funcoes/dados-das-funcoes.md
+    - file: geometria/index.md # página inicial de geometria
+      children:
+        - file: geometria/corrida-das-semelhancas.md
+        - file: geometria/pitagotrilha.md
+        - file: geometria/cara-a-cara-dos-poligonos.md
+        - file: geometria/planificacao.md
+        - file: geometria/monte-seu-triangulo.md
+        - file: geometria/batalha-cartesiana.md
+    - file: sobre.md
+
+  exclude:
+    - README.md
+    - LICENSE
+
+site:
+  template: book-theme
+  options:
+    style: public/style.css
+    logo: public/logo.svg
+    folders: false
+  actions:
+    - title: GitHub
+      url: https://github.com/OnMat/O-Grande-Vernissage
+  #   favicon: favicon.ico
