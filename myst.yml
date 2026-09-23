@@ -18,9 +18,8 @@ project:
   github: https://github.com/OnMat/O-Grande-Vernissage
 
   authors:
-    - name: Daniel
-      affiliations:
-        - Universidade Federal do Cariri
+    - name: Daniel Lacerda Loiola
+      affiliation: Universidade Federal do Cariri
 
   license:
     content: CC-BY-4.0
@@ -42,7 +41,10 @@ site:
     style: assets/style.css
     logo: assets/logo.svg
     folders: true
+    hide_authors: true
   actions:
-    - title: GitHub
+    - title: GitHub Repo
       url: https://github.com/OnMat/O-Grande-Vernissage
+    - title: Feedback
+      url: https://github.com/OnMat/O-Grande-Vernissage/issues
   # favicon: assets/favicon.ico
