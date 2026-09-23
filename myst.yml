@@ -1,55 +1,48 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: b27930b3-cf59-4b5f-82d9-967081ad5649
+  id: 571dbdc3-d862-4fd9-bda1-cde742ccefbe
 
   title: O Grande Vernissage
   subject: Início
-  description: Descobrindo o Teorema da Galeria de Arte
-  license: Creative Commons
+  description: >-
+    Jogo de tabuleiro sobre o Problema da Galeria de Arte, para os anos finais do
+    Ensino Fundamental. Regras, material imprimível e guia do professor.
 
   keywords:
-    - teorema da galeria de arte
+    - jogo de tabuleiro
+    - problema da galeria de arte
     - poliminós
-    - jogo concreto
+    - educação matemática
     
   github: https://github.com/OnMat/O-Grande-Vernissage
-  
+
+  authors:
+    - name: Daniel
+      affiliations:
+        - Universidade Federal do Cariri
+
+  license:
+    content: CC-BY-4.0
+
   toc:
     - file: index.md
-    - file: orientacoes.md
-    - file: numeros-e-funcoes/index.md # página inicial de números e funções
+    - title: Como jogar
       children:
-        - file: numeros-e-funcoes/domino-dos-racionais.md
-        - file: numeros-e-funcoes/jogo-da-memoria-dos-racionais.md
-        - file: numeros-e-funcoes/trilha-dos-juros-simples.md
-        - file: numeros-e-funcoes/batalha-dos-investidores.md
-        - file: numeros-e-funcoes/escape-room-dos-polinomios.md
-        - file: numeros-e-funcoes/trinca-dos-polinomios.md
-        - file: numeros-e-funcoes/missao-probabilidade.md
-        - file: numeros-e-funcoes/teatro-das-retas.md
-        - file: numeros-e-funcoes/dados-das-funcoes.md
-    - file: geometria/index.md # página inicial de geometria
-      children:
-        - file: geometria/corrida-das-semelhancas.md
-        - file: geometria/pitagotrilha.md
-        - file: geometria/cara-a-cara-dos-poligonos.md
-        - file: geometria/planificacao.md
-        - file: geometria/monte-seu-triangulo.md
-        - file: geometria/batalha-cartesiana.md
+        - file: regras.md
+        - file: contratos.md
+        - file: referencia-rapida.md
+    - file: monte-o-seu.md
+    - file: sala-de-aula.md
     - file: sobre.md
-
-  exclude:
-    - README.md
-    - LICENSE
 
 site:
   template: book-theme
   options:
-    style: public/style.css
-    logo: public/logo.svg
-    folders: false
+    style: assets/style.css
+    logo: assets/logo.svg
+    folders: true
   actions:
     - title: GitHub
       url: https://github.com/OnMat/O-Grande-Vernissage
-  #   favicon: favicon.ico
+  # favicon: assets/favicon.ico
