@@ -11,11 +11,6 @@ Adicionar o resumo...
 
 *Link para o PDF a ser incluído após o depósito.*
 
-## Curiosidades das cartas
-
-No verso das cartas de obra e de contrato há curiosidades sobre o problema. Elas serão
-reunidas nesta página.
-
 ## Declaração de Uso de IA
 
 Este site foi desenvolvido utilizando Jupyter Notebook, versão 2.0, e estruturado com o auxílio da inteligência artificial Claude.ai.
