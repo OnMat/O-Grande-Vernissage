@@ -7,9 +7,7 @@ O Grande Vernissage é o produto educacional da dissertação de mestrado de Dan
 PROFMAT da Universidade Federal do Cariri.
 
 *Guardas no Museu: explorando o problema da galeria de arte para o ensino de geometria*.
-O texto completo traz o desenvolvimento matemático do Problema da Galeria de Arte, da
-formulação de Klee à demonstração de Fisk por 3-coloração, e o caso dos polígonos
-ortogonais e dos poliminós, que deu origem às peças do jogo.
+Adicionar o resumo...
 
 *Link para o PDF a ser incluído após o depósito.*
 
@@ -17,6 +15,10 @@ ortogonais e dos poliminós, que deu origem às peças do jogo.
 
 No verso das cartas de obra e de contrato há curiosidades sobre o problema. Elas serão
 reunidas nesta página.
+
+## Declaração de Uso de IA
+
+Este site foi desenvolvido utilizando Jupyter Notebook, versão 2.0, e estruturado com o auxílio da inteligência artificial Claude.ai.
 
 ## Licença e citação
 
@@ -35,3 +37,5 @@ Para citar o trabalho, fazer referência a:
   year    = "2026"
 }
 ```
+
+## Contato
