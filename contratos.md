@@ -2,52 +2,58 @@
 title: Contratos
 ---
 
-Os contratos são os objetivos da partida. Os públicos valem para todos; os privados são
-secretos.
+Os contratos são objetivos extras que rendem pontos no fim da partida. Os públicos valem
+para todos; os privados são secretos.
 
-:::{figure} assets/cartas-contratos.jpg
-:alt: Exemplos de cartas de contrato
-:width: 100%
+::::{grid} 1 1 2 2
 
-Cartas de contrato. No verso de cada uma há uma curiosidade sobre o Problema da Galeria
-de Arte.
+:::{figure} assets/contrato-publico.png
+:alt: Carta do contrato público Cerco à parede
+:width: 80%
+
+Contrato público.
 :::
+
+:::{figure} assets/contrato-privado.png
+:alt: Carta do contrato privado Dois recortes
+:width: 80%
+
+Contrato privado.
+:::
+
+::::
 
 ## Públicos
 
-Sete cartas, três ativas por partida.
+Oito cartas, três ativas por partida. Todos os jogadores podem cumprir qualquer uma delas.
 
 | Contrato | O que cumprir | Pontos |
 |---|---|---|
-| Quina difícil | 2 pontos por canto para dentro (270°) da sua galeria com as três casas vizinhas vigiadas. | 2 por quina |
-| Cantos retos | Vigie a casa de cada canto para fora (90°) da sua galeria. | 10 |
-| Cerco à coluna | Vigie todas as casas que fazem lado com uma mesma coluna. 6 pontos por coluna, até duas. | 6 ou 12 |
-| Um quarto da galeria | Vigie pelo menos 25% das casas livres com câmeras de uma única cor. | 10 |
-| Especialista | Tenha a maior região de uma única cor entre todos os jogadores. | 10 |
-| Ponto Cego | Termine com a menor área não vigiada entre todos os jogadores. | 10 |
-| Vitrine | Vigie por completo duas linhas ou duas colunas vizinhas, com câmeras de uma mesma cor. | 10 |
+| Quina difícil | Para cada canto de parede interna, as três casas livres ao redor vigiadas por câmeras de uma mesma cor. | 3 por quina |
+| Cerco à parede | Vigiar todas as casas livres que fazem lado com uma mesma parede interna (até duas paredes). | 8 por parede |
+| Sala e corredor | Uma região de 6 casas com perímetro 10 ou 12, e outra de 6 casas com perímetro 14. | 12 |
+| Um quinto da galeria | Pelo menos 20% das casas livres vigiadas por câmeras de uma única cor. | 10 |
+| Perímetro exposto | Pelo menos 12 das 40 casas da borda do tabuleiro vigiadas. | 10 |
+| Área VIP | Uma obra inteira dentro da área 3 × 3 central, com todo o perímetro vigiado por câmeras de duas cores. | 14 |
+| Vitrine | Todas as casas livres de duas linhas ou de duas colunas vizinhas preenchidas por uma única cor. | 7 |
+| Visibilidade | Câmeras de uma mesma cor tocando as quatro paredes externas. | 10 |
 
 ## Privados
 
-Oito cartas. Cada jogador recebe 2 e fica com 1.
+Oito cartas. Cada jogador recebe 2 e fica com 1, em segredo.
 
 | Contrato | O que cumprir | Pontos |
 |---|---|---|
-| Sala retangular | Uma região de uma cor, com 6 casas ou mais, cujo contorno tenha exatamente 4 cantos. | 8 |
-| Dois recortes | Uma região de uma cor, com 7 casas ou mais, com exatamente 2 cantos para dentro. | 10 |
-| Moldura econômica | Uma região de uma cor com área 8 e perímetro 12. | 9 |
-| Corredor | Uma região de uma cor com área 6 e perímetro 14. | 8 |
-| Gêmeos desiguais | Duas regiões de mesma área e perímetros diferentes. | 10 |
+| Arquiteto | Uma linha contínua de câmeras de uma cor, de uma borda à outra, sem atravessar parede. | 12 |
+| Mestre do espaço | Terminar sem nenhum buraco 1 × 1, isto é, sem casa vazia cercada de casas ocupadas. | 10 |
+| Linha de visão | Preencher uma diagonal principal do tabuleiro, descontadas as paredes, sem contar obras de arte. | 8 |
+| Exposição segura | Três obras com todo o perímetro vigiado, sem casa vazia encostada. | 12 |
+| Dois recortes | Uma região de uma cor, com 7 casas ou mais, com exatamente 2 cantos para dentro (270°). | 10 |
+| Gêmeos desiguais | Duas regiões de mesma área e perímetros diferentes. | 8 |
 | Espelho | Uma região de uma cor, com 6 casas ou mais, que tenha eixo de simetria e não seja retângulo. | 8 |
-| Meia-volta | Uma região de uma cor, com 6 casas ou mais, que fique igual ao ser girada meia-volta e não seja retângulo. | 10 |
-| Exposição segura | Três obras de arte com todo o perímetro vigiado. | 12 |
-
-## Contratos herdados
-
-Continuam no baralho: Visibilidade, Arquiteto, Linha de Visão, Área VIP e Mestre do
-espaço.
+| Moldura | Vigiar todas as casas que fazem lado com uma mesma obra usando exatamente 4 câmeras. | 9 |
 
 :::{tip} Para o professor
-A escolha dos contratos ativos muda o que a partida exercita. Ver a sugestão de baralho
-por ano escolar em [](sala-de-aula.md).
+A escolha dos contratos públicos ativos muda o que a partida exercita. Ver o mapeamento
+com a BNCC em [](sala-de-aula.md).
 :::

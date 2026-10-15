@@ -2,58 +2,66 @@
 title: Monte o seu
 ---
 
-Todo o material do jogo pode ser impresso em folhas A4. Há duas versões de cada arquivo:
-colorida e em preto e branco, para impressão econômica.
+O jogo pode ser confeccionado na escola com papel, cola e papelão, ou cortado em MDF por
+quem tiver acesso a corte a laser.
 
 :::{note}
-Os arquivos ainda serão publicados. Enquanto isso, o material pode ser reproduzido a
-partir das imagens desta página.
+Os arquivos para impressão ainda serão publicados nesta página.
 :::
 
-## Arquivos para imprimir
+## Componentes
 
-| Material | Colorido | Preto e branco | Folhas |
-|---|---|---|---|
-| Tabuleiros de galeria | *em breve* | *em breve* | 5 |
-| Peças de câmera | *em breve* | *em breve* | 4 |
-| Cartas de obra de arte | *em breve* | *em breve* | 2 |
-| Cartas de contrato | *em breve* | *em breve* | 2 |
-| Fichas de ingresso e empréstimo | *em breve* | *em breve* | 1 |
-| Manual de regras | *em breve* | *em breve* | 4 |
+| Componente | Quantidade |
+|---|---|
+| Galerias (tabuleiros 11 × 11 com paredes internas) | 3 modelos, um tabuleiro por jogador |
+| Câmeras | 168 peças em 4 cores (detalhe abaixo) |
+| Cartas de obra de arte, com as bases correspondentes | 41 |
+| Cartas de contrato público | 8 |
+| Cartas de contrato privado | 8 |
+| Fichas de ingresso | 7 por jogador |
+| Fichas de empréstimo | conjunto comum |
 
-:::{figure} assets/tabuleiro-exemplo.jpg
-:alt: Tabuleiro de galeria impresso
-:width: 100%
+| Câmera | Formatos | Peças |
+|---|---|---|
+| Monominó | 1 × 1 | 48 (12 por cor) |
+| Dominó | 1 × 2 | 48 (12 por cor) |
+| Triminó | I e L | 24 (6 por cor) |
+| Tetraminó | O, L, T e Z | 24 (6 por cor) |
+| Pentaminó | P, X, W, L e T | 24 (6 por cor) |
 
-Um dos tabuleiros de galeria.
+::::{grid} 1 1 2 2
+
+:::{figure} assets/pecas-triminos.png
+:alt: Triminós
+Triminós.
+:::
+
+:::{figure} assets/pecas-tetraminos.png
+:alt: Tetraminós
+Tetraminós.
+:::
+
+::::
+
+:::{figure} assets/pecas-pentaminos.png
+:alt: Pentaminós
+:width: 70%
+
+Pentaminós.
 :::
 
 ## Versão em papel
 
 O material mínimo é papel comum, tesoura e cola. Para durar mais, imprima as peças e as
-cartas em papel 180 g ou cole as folhas em papelão de caixa antes de recortar. Os
-tabuleiros funcionam bem plastificados, o que permite marcar com caneta apagável.
+cartas em papel mais grosso ou cole as folhas em papelão antes de recortar. Os
+tabuleiros funcionam bem plastificados.
 
-Tempo estimado de recorte: cerca de duas horas para um kit completo.
+Mantenha os símbolos dentro das peças (pentágono, estrela, triângulo e círculo) mesmo
+numa impressão em preto e branco: são eles que permitem identificar as cores sem
+depender da percepção cromática.
 
 ## Versão em MDF
 
-:::{figure} assets/montagem-mdf.jpg
-:alt: Peças cortadas em MDF
-:width: 100%
-
-Peças em MDF com adesivo aplicado.
-:::
-
-Para quem tiver acesso a corte a laser, os arquivos vetoriais permitem cortar peças,
-fichas e bases das obras em MDF de 3 mm. A quantidade de material e as medidas serão
-publicadas junto com os arquivos.
-
-## Lista de componentes
-
-- 4 a 6 tabuleiros de galeria em grade 11 × 11, com colunas de sustentação marcadas.
-- 108 peças de câmera em 4 cores: 24 monominós, 24 dominós, 24 triminós, 24 tetraminós e
-  12 pentaminós.
-- Cartas de obra de arte, com as bases correspondentes.
-- Cartas de contrato, públicas e privadas.
-- Fichas de ingresso e fichas de empréstimo.
+Para quem tiver acesso a corte a laser, as peças, as fichas e as bases das obras podem
+ser cortadas em MDF. Medidas e arquivos vetoriais serão publicados junto com os arquivos
+de impressão.

@@ -2,61 +2,55 @@
 title: Na sala de aula
 ---
 
-O jogo foi pensado para os anos finais do Ensino Fundamental, a partir do 6º ano, em
-grupos de 3 a 4 alunos.
+O jogo trabalha a geometria de forma intuitiva, visual e tátil, e é recomendado a partir
+dos 10 anos. Nos anos finais do ensino fundamental, pode servir também para concretizar
+argumentos lógicos e conectar a percepção espacial aos conceitos formais.
 
-:::{figure} assets/turma-jogando.jpg
-:alt: Grupo de alunos jogando
-:width: 100%
-:::
+## Orientações ao professor
+
+O professor atua como mediador: incentiva, pergunta e arbitra regras, sem entregar
+respostas prontas. Recomenda-se dividir a turma em grupos de 3 a 4 alunos, o que favorece
+a argumentação entre colegas e a troca de estratégias de cobertura.
 
 ## Sequência didática
 
-**Etapa 1 — Familiarização (20 min).** Apresente o desafio: a turma são curadores de um
-museu com salas de formatos irregulares e precisa instalar câmeras para proteger as
-obras. Distribua tabuleiros e peças e deixe os grupos manipularem livremente, sem
-pontuação. O objetivo é que percebam as regras de encaixe e comecem a girar e virar
-peças por conta própria.
+Proposta para duas aulas consecutivas.
 
-**Etapa 2 — Partida (50 a 60 min).** Os grupos jogam. Circule como consultor de regras,
-sem resolver as decisões dos jogadores.
+**Etapa 1 — Familiarização (20 min).** Apresente o desafio: *"Vocês são curadores de um
+grande museu de arte. É preciso instalar novas obras e câmeras de segurança para
+protegê-las, cumprindo contratos públicos e privados. Qual seria a melhor
+configuração?"* Cada grupo recebe uma galeria e câmeras e tem 10 minutos para manipular
+livremente as peças sobre a malha, percebendo as regras de encaixe.
 
-**Etapa 3 — Sistematização (20 min).** Discussão a partir do que aconteceu na mesa:
+**Etapa 2 — Partida (50 min).** Distribua os tabuleiros, as cartas e as fichas, explique
+a pontuação e os custos das câmeras, e deixe os grupos jogarem. Circule pelas mesas como
+consultor das regras. Ao final, contabilizem os pontos.
 
-- Que peça foi mais difícil de encaixar? Por quê?
-- Duas regiões com o mesmo número de casas podem ter contornos de tamanhos diferentes?
-- Quais peças continuam iguais depois de viradas, e quais mudam?
-- Na sua galeria, quantos cantos para dentro existem? E para fora? Há relação entre os
-  dois números?
-- Sobrou algum lugar que nenhuma câmera conseguia ver? O que causou isso?
+**Etapa 3 — A matemática por trás das estratégias (20 min).** Os alunos registram no
+caderno o que observaram — área e perímetro das câmeras, quantidade de ângulos de 90° e
+270° na galeria, peças difíceis de posicionar. Perguntas para a conversa:
 
-## Habilidades trabalhadas
+- Quais formatos de câmera foram mais fáceis de posicionar? E qual foi o mais difícil?
+- Toda a galeria foi coberta? Sobrou algum espaço sem vigilância? Por quê?
+- Quais obras foram mais fáceis ou mais difíceis de adquirir?
 
-| Mecânica do jogo | Conceito | Habilidade | Ano |
-|---|---|---|---|
-| Peça como região vista por uma câmera | Visibilidade; região vigiada | — | — |
-| Escolha e leitura da galeria | Planta baixa | EF06MA28 | 6º |
-| Contratos de cantos (Quina difícil, Sala retangular, Dois recortes, Cerco à coluna) | Polígonos ortogonais; ângulos de 90° e 270° | EF06MA18, EF06MA25, EF06MA26 | 6º |
-| Contratos de área e perímetro (Moldura econômica, Corredor, Gêmeos desiguais) | Área e perímetro por contagem | EF06MA24, EF07MA32 | 6º e 7º |
-| Contrato Um quarto da galeria | Porcentagem | EF06MA13 | 6º |
-| Contratos Espelho e Meia-volta | Simetria de reflexão e de rotação | EF07MA21 | 7º |
+Para encerrar, conecte a experiência aos polígonos ortogonais e às malhas
+quadriculadas do currículo.
 
-## Baralho por turma
+## Habilidades da BNCC
 
-| Turma | Contratos sugeridos |
-|---|---|
-| 6º ano | Quina difícil, Cantos retos, Cerco à coluna, Sala retangular, Moldura econômica, Corredor, Um quarto da galeria |
-| 7º ano em diante | acrescentar Dois recortes, Gêmeos desiguais, Espelho, Meia-volta |
+| Mecânica do jogo | Conceito | Habilidade |
+|---|---|---|
+| Leitura da galeria e de suas paredes internas | Planta baixa | EF06MA28 |
+| Contratos Quina difícil, Cerco à parede e Dois recortes | Polígonos ortogonais; vértices e ângulos de 90° e 270° | EF06MA18, EF06MA25, EF06MA26 |
+| Contratos Vitrine e Visibilidade | Retângulos; linhas e colunas da malha | EF06MA18 |
+| Contratos Sala e corredor, Gêmeos desiguais, Perímetro exposto, Área VIP, Exposição segura e Moldura | Área e perímetro de figuras compostas por quadrados | EF06MA24, EF07MA32 |
+| Contrato Um quinto da galeria | Porcentagem | EF06MA13 |
+| Contrato Espelho; giro e reflexão das peças | Simetria de reflexão e de rotação | EF07MA21 |
 
 ## Sem os componentes físicos
 
-Onde não for possível confeccionar o material, imprima apenas a malha quadriculada e
-peça que os grupos desenhem as peças, respeitando cor e número de casas. As regras
-continuam valendo. Os slides com as imagens dos componentes ajudam na apresentação.
-
-## O problema por trás do jogo
-
-Em 1973, o matemático Victor Klee perguntou quantos guardas seriam necessários para
-vigiar um museu de formato qualquer. Dois anos depois, Václav Chvátal mostrou que, para
-uma galeria com n paredes, ⌊n/3⌋ guardas sempre bastam — e às vezes são mesmo
-necessários. O jogo trabalha a versão em malha quadriculada dessa pergunta.
+Se não for possível confeccionar o material, use slides para mostrar os componentes,
+entregue aos grupos apenas o tabuleiro com a malha quadriculada e peça que desenhem as
+câmeras e as obras, respeitando cor e número de quadradinhos. As regras continuam
+valendo.

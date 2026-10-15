@@ -30,6 +30,7 @@ project:
       children:
         - file: regras.md
         - file: contratos.md
+        - file: obras.md
         - file: referencia-rapida.md
     - file: monte-o-seu.md
     - file: sala-de-aula.md
