@@ -29,19 +29,13 @@ Os arquivos para impressão ainda serão publicados nesta página.
 | Tetraminó | O, L, T e Z | 24 (6 por cor) |
 | Pentaminó | P, X, W, L e T | 24 (6 por cor) |
 
-::::{grid} 1 1 2 2
+:::{figure}
+:label: fig-tri-tetra
+![Triminós](assets/pecas-triminos.png)
+![Tetraminós](assets/pecas-tetraminos.png)
 
-:::{figure} assets/pecas-triminos.png
-:alt: Triminós
-Triminós.
+(a) Triminós; (b) tetraminós.
 :::
-
-:::{figure} assets/pecas-tetraminos.png
-:alt: Tetraminós
-Tetraminós.
-:::
-
-::::
 
 :::{figure} assets/pecas-pentaminos.png
 :alt: Pentaminós

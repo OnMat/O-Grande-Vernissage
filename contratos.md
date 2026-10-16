@@ -5,23 +5,13 @@ title: Contratos
 Os contratos são objetivos extras que rendem pontos no fim da partida. Os públicos valem
 para todos; os privados são secretos.
 
-::::{grid} 1 1 2 2
+:::{figure}
+:label: fig-cartas-contrato
+![Carta do contrato público Cerco à parede](assets/contrato-publico.png)
+![Carta do contrato privado Dois recortes](assets/contrato-privado.png)
 
-:::{figure} assets/contrato-publico.png
-:alt: Carta do contrato público Cerco à parede
-:width: 80%
-
-Contrato público.
+Exemplos de cartas: (a) contrato público; (b) contrato privado.
 :::
-
-:::{figure} assets/contrato-privado.png
-:alt: Carta do contrato privado Dois recortes
-:width: 80%
-
-Contrato privado.
-:::
-
-::::
 
 ## Públicos
 

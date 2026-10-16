@@ -36,6 +36,14 @@ project:
     - file: sala-de-aula.md
     - file: sobre.md
 
+  exclude:
+    - README.md
+    - LICENSE
+    - capa/**
+
+extends:
+  - export.yml
+
 site:
   template: book-theme
   options:
@@ -48,4 +56,6 @@ site:
       url: https://github.com/OnMat/O-Grande-Vernissage
     - title: Feedback
       url: https://github.com/OnMat/O-Grande-Vernissage/issues
+    - title: Download PDF
+      url: ./exports/O-Grande-Vernissage.pdf
   # favicon: assets/favicon.ico

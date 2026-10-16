@@ -1,0 +1,72 @@
+version: 1
+project:
+
+  downloads:
+    - id: output-pdf
+      title: O Grande Vernissage (PDF)
+
+  exports:
+    - id: output-pdf
+      format: typst
+      template: ./template
+      output: ./exports/O-Grande-Vernissage.pdf
+      articles:
+        - regras.md
+        - contratos.md
+        - obras.md
+        - referencia-rapida.md
+        - monte-o-seu.md
+        - sala-de-aula.md
+# additional options #
+
+# Capa (imagem de página inteira, gerada a partir de capa/capa.typ)
+      cover: assets/capa.png
+      coverposition: 0  #in cm from title
+      cover_width: 21 #in cm
+
+# Imagem de fundo (todas as páginas, exceto a capa)
+      background: assets/fundo.png
+
+# ToC
+      ToC_depth: 2
+      show_ToC: true
+
+# Page settings
+      papersize: a4
+      # margens ABNT (NBR 14724): superior e esquerda 3 cm, inferior e direita 2 cm
+      margin_top: 3 #cm
+      margin_bottom: 2 #cm
+      margin_left: 3 #cm
+      margin_right: 2 #cm
+      show_pagenumber: true
+
+      #### Fonts
+      fontsize: 12
+      fontstyle:
+      linespacing: .5
+      justification: true
+
+      #### Theme
+      colortheme: rgb("#6B1D2A")
+      colorheadings: rgb("#6B1D2A")
+
+# Prefácio (não aparece no site, só no PDF)
+      preface_place: Juazeiro do Norte, CE, Brasil
+      preface_date: outubro de 2026
+      preface_signature: Daniel Lacerda Loiola
+      preface: |
+        Quantos guardas são necessários para vigiar um museu? A pergunta, feita pelo matemático Victor Klee em 1973, deu origem a um dos problemas clássicos da geometria computacional: o Problema da Galeria de Arte. Seu enunciado é simples o bastante para ser compreendido por qualquer estudante, e é justamente essa simplicidade que o torna um ponto de partida tão rico para o ensino de geometria.
+
+        Este material contém o produto educacional da dissertação “Guardas no Museu: explorando o problema da galeria de arte para o ensino de geometria”, apresentada ao Programa de Pós-Graduação em Matemática em Rede Nacional da Universidade Federal do Cariri. O produto é o jogo de tabuleiro O Grande Vernissage, no qual cada jogador é curador de uma galeria de arte e precisa instalar câmeras de segurança, adquirir obras e cumprir contratos para acumular prestígio.
+
+        No jogo, a galeria é uma malha quadriculada com paredes internas, e cada câmera é um poliminó que representa a região que ela enxerga. Ao posicionar as peças, disputar as obras e perseguir os contratos, os estudantes mobilizam noções de visibilidade, polígonos, vértices, ângulos, área, perímetro e simetria, sem que seja necessária uma formalização prévia. A matemática está na própria mecânica do jogo.
+
+        O material está organizado para quem vai jogar e para quem vai ensinar. Os primeiros capítulos trazem as regras, o baralho de contratos, as obras de arte e uma referência rápida para consulta durante a partida. Em seguida, há orientações para a confecção do material na escola e um guia de aplicação com sequência didática, perguntas para a discussão em sala e o mapeamento das habilidades da Base Nacional Comum Curricular.
+
+        Esperamos que este jogo possa ser adaptado à realidade de cada turma e que o professor, como mediador, encontre nele uma forma de fazer os estudantes descobrirem, jogando, que há muita geometria por trás de uma pergunta aparentemente simples.
+      preface_acknowledgments: |
+        Agradeço ao meu orientador, Prof. Dr. Vicente Helano Feitosa Batista Sobrinho, pela paciência, dedicação e ensinamentos transmitidos ao longo desta jornada, e ao coorientador, Prof. Dr. Roberto Hugo Wanderley Pinheiro, pela disponibilidade e principalmente pelas dicas oferecidas ao produto deste trabalho.
+
+        Agradeço também à Universidade Federal do Cariri (UFCA) e ao Programa de Pós-Graduação em Matemática em Rede Nacional (PROFMAT) pelo espaço de formação e pesquisa que possibilitou a construção deste produto educacional.
+
+        O presente trabalho foi realizado com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior – Brasil (CAPES) – Código de Financiamento 001.
