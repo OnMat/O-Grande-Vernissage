@@ -50,6 +50,3 @@ Para citar o trabalho:
 }
 ```
 
-## Contato
-
-*A incluir.*

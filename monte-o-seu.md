@@ -5,10 +5,6 @@ title: Monte o seu
 O jogo pode ser confeccionado na escola com papel, cola e papelão, ou cortado em MDF por
 quem tiver acesso a corte a laser.
 
-:::{note}
-Os arquivos para impressão ainda serão publicados nesta página.
-:::
-
 ## Componentes
 
 | Componente | Quantidade |
@@ -57,5 +53,6 @@ depender da percepção cromática.
 ## Versão em MDF
 
 Para quem tiver acesso a corte a laser, as peças, as fichas e as bases das obras podem
-ser cortadas em MDF. Medidas e arquivos vetoriais serão publicados junto com os arquivos
-de impressão.
+ser cortadas em MDF.
+
+[Download do material para impressão](assets/imprimir/Material_imprimir_e_corte_laser.pdf)
