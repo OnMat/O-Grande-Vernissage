@@ -8,11 +8,17 @@ Cada jogador é dono de uma galeria de arte e organiza sua exposição instaland
 de segurança e obras famosas. Vence quem acumular mais prestígio ao final de 12 rodadas,
 adquirindo obras, cumprindo contratos e cobrindo bem a galeria.
 
+O jogo foi inspirado em *World Wonders* e em *Cartógrafos: Heróis*, e seu
+desenvolvimento seguiu as orientações de Roberto Pinheiro para a criação de jogos de
+tabuleiro [@pinheiro2025guia].
+
 ## O que cada peça representa
 
 Cada peça de câmera é um poliminó — uma figura formada por quadradinhos ligados pelos
 lados — que representa a **região que aquela câmera enxerga**. As câmeras têm de 1 a 5
-quadradinhos e vêm em quatro cores: azul, vermelho, amarelo e preto.
+quadradinhos e vêm em quatro cores: azul, vermelho, amarelo e preto. A ideia de
+vigiar uma galeria formada por quadradinhos vem da versão do Problema da Galeria de
+Arte para poliminós, estudada por Therese Biedl e colaboradores [@biedl2012art].
 
 :::{figure} assets/cameras-cores.png
 :alt: Câmeras nas quatro cores, cada uma com um símbolo diferente

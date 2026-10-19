@@ -37,10 +37,10 @@ exemplos:
 :::{note} Você sabia que o problema foi proposto por Victor Klee em 1973?
 Ele apresentou a questão ao matemático Václav Chvátal, que a resolveu em 1975: para
 qualquer galeria com $n$ paredes, $\lfloor n/3 \rfloor$ guardas sempre bastam — e às
-vezes são mesmo necessários — para vigiar todo o espaço.
+vezes são mesmo necessários — para vigiar todo o espaço [@chvatal1975combinatorial].
 :::
 
 :::{note} Você sabia que o Problema da Galeria de Arte é um clássico da geometria computacional?
 Nele, busca-se o número mínimo de guardas necessários para vigiar uma sala com formato
-de polígono.
+de polígono [@o1987art].
 :::

@@ -36,6 +36,9 @@ project:
     - file: sala-de-aula.md
     - file: sobre.md
 
+  bibliography:
+    - referencias.bib
+
   exclude:
     - README.md
     - LICENSE

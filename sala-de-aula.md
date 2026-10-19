@@ -39,6 +39,9 @@ quadriculadas do currículo.
 
 ## Habilidades da BNCC
 
+O quadro abaixo relaciona as mecânicas do jogo às habilidades da Base Nacional Comum
+Curricular [@bncc] para os anos finais do ensino fundamental.
+
 | Mecânica do jogo | Conceito | Habilidade |
 |---|---|---|
 | Leitura da galeria e de suas paredes internas | Planta baixa | EF06MA28 |
@@ -54,3 +57,17 @@ Se não for possível confeccionar o material, use slides para mostrar os compon
 entregue aos grupos apenas o tabuleiro com a malha quadriculada e peça que desenhem as
 câmeras e as obras, respeitando cor e número de quadradinhos. As regras continuam
 valendo.
+
+## O problema por trás do jogo
+
+Em 1973, o matemático Victor Klee perguntou quantos guardas seriam necessários para
+vigiar o interior de uma galeria com o formato de um polígono qualquer [@o1987art].
+Dois anos depois, Václav Chvátal mostrou que, para uma galeria com $n$ paredes,
+$\lfloor n/3 \rfloor$ guardas sempre bastam — e às vezes são mesmo necessários
+[@chvatal1975combinatorial]. Uma demonstração bem mais curta, usando triangulação do
+polígono e coloração de vértices com três cores, foi dada por Steve Fisk [@Fisk1978].
+
+O jogo trabalha uma versão discreta dessa pergunta, em que a galeria é formada por
+quadradinhos de uma malha. Para essas galerias, mostrou-se que, se a galeria tem
+$m \geq 2$ quadradinhos, $\lfloor (m+1)/3 \rfloor$ guardas sempre bastam
+[@biedl2012art].
