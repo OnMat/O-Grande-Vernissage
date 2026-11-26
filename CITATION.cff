@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Se usar este material, cite-o como abaixo."
+title: "O Grande Vernissage: um jogo de tabuleiro sobre o problema da galeria de arte"
+type: software
+version: 1.0.0
+date-released: 2026-11-26
+license: CC-BY-4.0
+url: "https://onmat.github.io/O-Grande-Vernissage/"
+repository-code: "https://github.com/OnMat/O-Grande-Vernissage"
+authors:
+  - family-names: Loiola
+    given-names: Daniel Lacerda
+    affiliation: Universidade Federal do Cariri
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+abstract: >-
+  Jogo de tabuleiro para 2 a 4 jogadores em que cada participante é curador de
+  uma galeria de arte, representada por uma malha 11 × 11 com paredes internas,
+  e instala câmeras de segurança cujas regiões de visibilidade são poliminós.
+  Recurso educacional vinculado à dissertação "Guardas no Museu: explorando o
+  problema da galeria de arte para o ensino de geometria" (PROFMAT/UFCA), com
+  guia de regras, sequência didática e material para impressão.
+keywords:
+  - problema da galeria de arte
+  - poliminós
+  - jogo de tabuleiro
+  - ensino de geometria
+  - PROFMAT
