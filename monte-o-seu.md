@@ -56,3 +56,8 @@ Para quem tiver acesso a corte a laser, as peças, as fichas e as bases das obra
 ser cortadas em MDF.
 
 [Download do material para impressão](assets/imprimir/Material_imprimir_e_corte_laser.pdf)
+
+O material para impressão é distribuído sob a licença
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br), com exceção das
+reproduções de obras de arte das cartas e bases, que pertencem a seus respectivos
+autores ou titulares.

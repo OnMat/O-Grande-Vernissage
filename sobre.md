@@ -34,9 +34,15 @@ inteligência artificial Claude.ai.
 
 ## Licença e citação
 
-O material é distribuído sob licença Creative Commons Atribuição 4.0 (CC BY 4.0). Pode
-ser copiado, impresso, adaptado e usado em sala de aula, inclusive com modificações,
-desde que citada a fonte.
+O jogo, este site, o guia em PDF e o material para impressão são distribuídos sob a
+licença [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br).
+Eles podem ser copiados, impressos, redistribuídos e adaptados, para qualquer
+finalidade, desde que seja dado o devido crédito, com indicação da licença e das
+alterações feitas.
+
+As reproduções de obras de arte que aparecem nas cartas e nas bases das obras
+pertencem a seus respectivos autores ou titulares e **não** estão abrangidas por esta
+licença.
 
 Para citar o trabalho:
 
