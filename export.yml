@@ -30,6 +30,10 @@ project:
 # Referências: usa o .bib original, preservando teses e "Acesso em"
       bibliography_file: referencias.bib
 
+# Licença: a página de créditos, logo após a capa, usa a licença declarada no myst.yml;
+# aqui ficam as exceções e informações extras
+      license_note: "As reproduções de obras de arte que aparecem neste material pertencem a seus respectivos autores ou titulares e não estão abrangidas por esta licença. Versão online do jogo: https://onmat.github.io/O-Grande-Vernissage/"
+
 # ToC
       ToC_depth: 2
       show_ToC: true

@@ -127,6 +127,16 @@
   preface_acknowledgments: "[-options.preface_acknowledgments-]",
 [# endif #]
 
+[# if doc.license and doc.license.content #]
+  license_name: "[-doc.license.content.name-]",
+  license_id: "[-doc.license.content.id-]",
+  license_url: "[-doc.license.content.url-]",
+[# endif #]
+
+[# if options.license_note #]
+  license_note: "[-options.license_note-]",
+[# endif #]
+
 [# if options.preface_signature #]
   preface_signature: "[-options.preface_signature-]",
 [# endif #]

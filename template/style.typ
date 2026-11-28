@@ -37,6 +37,12 @@
   preface_signature: none,  // ex.: "Tales Souza da Rocha"
   preface_acknowledgments: none,    // texto da subseção "Agradecimentos", dentro do prefácio
 
+  // LICENÇA (página de créditos logo após a capa)
+  license_name: none,       // ex.: "Creative Commons Attribution 4.0 International"
+  license_id: none,         // ex.: "CC-BY-4.0"
+  license_url: none,        // ex.: "https://creativecommons.org/licenses/by/4.0/"
+  license_note: none,       // texto extra, por exemplo exceções à licença
+
   // SPECIFICATION of output
   paper-size: "a4",       // https://typst.app/docs/reference/layout/page/#parameters-paper
   margin: (),                          
@@ -160,6 +166,36 @@
       right: margin_right
       )
   )
+
+// PÁGINA DE CRÉDITOS E LICENÇA (verso da capa)
+    if license_url != none {
+      pagebreak()
+      set par(justify: false, first-line-indent: 0em, leading: 0.6em, spacing: 1em)
+      v(1fr)
+      block(width: 100%, {
+        set text(size: 0.85 * fontsize)
+        text(weight: "bold", title)
+        linebreak()
+        authors
+        v(1em)
+        let id = license_id.replace("-", " ")
+        // nomes oficiais em português das licenças Creative Commons mais usadas
+        let nomes = (
+          "CC-BY-4.0": "Creative Commons Atribuição 4.0 Internacional",
+          "CC-BY-SA-4.0": "Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional",
+          "CC-BY-NC-4.0": "Creative Commons Atribuição-NãoComercial 4.0 Internacional",
+          "CC-BY-NC-SA-4.0": "Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional",
+          "CC0-1.0": "Creative Commons CC0 1.0 Universal",
+        )
+        let nome = nomes.at(license_id, default: license_name)
+        [Este trabalho está licenciado sob a licença #link(license_url)[#nome (#id)]. ]
+        [Para ver uma cópia da licença, acesse #link(license_url)[#license_url].]
+        if license_note != none {
+          v(0.6em)
+          license_note
+        }
+      })
+    }
 
 // PREFACE, 
     if preface != none {

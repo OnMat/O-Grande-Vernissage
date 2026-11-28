@@ -36,6 +36,7 @@ doc:
   - id: keywords
   - id: doi
   - id: venue
+  - id: license
 
 options:
   - id: kind
@@ -117,6 +118,11 @@ options:
   - id: colorheadings
     type: string
     description: color of the headings
+
+# licença: página de créditos após a capa (usa a licença do myst.yml)
+  - id: license_note
+    type: string
+    description: texto extra na página de créditos, por exemplo exceções à licença
 
 # preface
   - id: preface

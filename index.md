@@ -47,5 +47,6 @@ Sequência didática, habilidades da BNCC e variante sem componentes físicos.
 
 ::::
 
-O jogo e todo o material desta página são de uso livre para fins educacionais. Ver
-[](sobre.md) para a licença e a forma de citação.
+O jogo e o material deste site são distribuídos sob a licença
+[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br).
+Ver [](sobre.md) para os detalhes da licença e a forma de citação.
